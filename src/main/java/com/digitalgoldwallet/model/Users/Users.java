@@ -67,9 +67,5 @@ public class Users {
 	public void setCreatedAt(LocalDateTime createdAt) {
 		this.createdAt = createdAt;
 	}
-	@Override
-	public String toString() {
-		return "Users [userId=" + userId + ", address=" + address + ", balance=" + balance + ", createdAt=" + createdAt
-				+ "]";
-	}
+	
 }
